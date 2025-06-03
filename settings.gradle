@@ -1,0 +1,3 @@
+rootProject.name = 'greenkart'
+include 'api-gateway', 'eureka-service', 'user-service', 'pickup-service', 'product-service', 'inventory-service', 'order-service', 'payment-service', 'notification-service'
+
