@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/auth")
+@RequestMapping("/v1/auth")
 public class UserController {
     private final UserService service;
     private final JwtUtil jwtUtil;
